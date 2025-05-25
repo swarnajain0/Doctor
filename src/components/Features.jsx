@@ -1,8 +1,8 @@
 import React from "react";
-import ico1 from "../assets/icon-doctor.png";
+import ico1 from "../assets/board.png";
 import ico2 from "../assets/trust.png";
 import ico3 from "../assets/endoscopic.webp";
-import ico4 from "../assets/minimally-invasive.png";
+import ico4 from "../assets/minimally.webp";
 import ico5 from "../assets/compassionate.png";
 import ico6 from "../assets/proven-results.png";
 
@@ -11,7 +11,7 @@ export default function Features() {
     {
       icon: ico1,
       title: "Board-certified spine specialist",
-      desc: "Dr. Harshit Dave is a board-certified spine specialist, fellowship-trained in advanced endoscopic techniques. Known for his expertise and compassionate care, he is dedicated to helping patients recover faster and live pain-free.",
+      desc: "Dr. Harshit Dave, fellowship-trained in endoscopic spine techniques, is known for expert, compassionate care that helps patients recover faster and live pain-free.",
       bg: "bg-blue-50"
     },
     {

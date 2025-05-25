@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ContactSection() {
   return (
-    <section className="py-16 bg-white">
+    <section id="contact" className="py-16 bg-white">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* Left: Intro Text */}
         <div>

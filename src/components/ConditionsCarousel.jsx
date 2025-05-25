@@ -109,7 +109,7 @@ export default function ConditionsCarousel() {
   };
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="services" className="py-16 bg-gray-50">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-8">
           Spine Conditions We Treat

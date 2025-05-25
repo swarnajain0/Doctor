@@ -4,7 +4,7 @@ import bgImg from "../assets/hero.png";
 
 export default function Hero() {
   return (
-    <section
+    <section id="hero"
       className="relative bg-cover bg-no-repeat h-[600px] md:h-[900px]"
       style={{
         backgroundImage: `url(${bgImg})`,

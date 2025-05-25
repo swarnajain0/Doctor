@@ -3,9 +3,12 @@ import NavBar              from "./components/NavBar";
 import Hero                from "./components/Hero";
 import Features            from "./components/Features";
 import DoctorSection       from "./components/DoctorSection";
-import Testimonials     from "./components/Testimonials";
+import Testimonials        from "./components/Testimonials";
 import ConditionsCarousel  from "./components/ConditionsCarousel";
+import SpecialisedServices from "./components/SpecialisedServices";
+import FAQ from "./components/FAQ";
 import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,8 +19,10 @@ function App() {
       <DoctorSection />
       <Testimonials />
       <ConditionsCarousel />
+      <SpecialisedServices />
+      <FAQ />
       <ContactSection />
-      {/* …other sections */}
+      <Footer />
     </>
   );
 }

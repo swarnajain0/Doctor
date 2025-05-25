@@ -1,43 +1,76 @@
 // src/components/NavBar.jsx
-import React from "react";
+import React, { useState, useEffect } from "react";
+import logo from "../assets/logo.png"; // ← your logo file here
 
 export default function NavBar() {
-  const links = ["Home", "About", "Pages", "Portfolio", "Blog", "Contact"];
+  const [solid, setSolid] = useState(false);
+  const links = [
+    { label: "Home", href: "#home" },
+    { label: "About", href: "#about" },
+    { label: "Services", href: "#services" },
+    { label: "Contact Us", href: "#contact" },
+  ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const hero = document.getElementById("home");
+      const threshold = hero ? hero.offsetHeight - 70 : 200;
+      setSolid(window.scrollY > threshold);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <nav className="w-full fixed top-0 left-0 z-50 bg-transparent">
+    <nav
+      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
+        solid ? "bg-white shadow-md" : "bg-transparent"
+      }`}
+    >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
-        <div className="text-2xl font-bold text-white">
-          Spine Plus
-        </div>
+        {/* Logo + Brand */}
+        <a href="#home" className="flex items-center">
+          <img src={logo} alt="Spine Plus Logo" className="h-8 w-auto mr-2" />
+          <span
+            className={`text-2xl font-bold transition-colors duration-300 ${
+              solid ? "text-blue-600" : "text-white"
+            }`}
+          >
+            Spine Plus
+          </span>
+        </a>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex space-x-8 text-white">
-          {links.map((l) => (
-            <li
-              key={l}
-              className="hover:text-gray-200 cursor-pointer flex items-center"
-            >
-              {l}
-              {["Pages", "Portfolio", "Blog"].includes(l) && (
-                <span className="ml-1 text-base">+</span>
-              )}
+        <ul
+          className={`hidden md:flex space-x-8 transition-colors duration-300 ${
+            solid ? "text-gray-600" : "text-white"
+          }`}
+        >
+          {links.map((link) => (
+            <li key={link.href}>
+              <a href={link.href} className="hover:text-blue-600">
+                {link.label}
+              </a>
             </li>
           ))}
         </ul>
 
-        {/* Get Started CTA */}
+        {/* Gallery CTA */}
         <button className="hidden md:inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">
-          Get Started →
+          Gallery
         </button>
 
-        {/* Mobile hamburger */}
+        {/* Mobile Hamburger */}
         <div className="md:hidden">
           <button aria-label="Toggle menu">
-            <span className="block w-6 h-0.5 bg-white mb-1"></span>
-            <span className="block w-6 h-0.5 bg-white mb-1"></span>
-            <span className="block w-6 h-0.5 bg-white"></span>
+            {[0, 1, 2].map((i) => (
+              <span
+                key={i}
+                className={`block w-6 h-0.5 mb-${i < 2 ? "1" : "0"} transition-colors duration-300 ${
+                  solid ? "bg-gray-800" : "bg-white"
+                }`}
+              />
+            ))}
           </button>
         </div>
       </div>

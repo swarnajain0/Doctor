@@ -3,7 +3,7 @@ import doctorImg from "../assets/about-doctor.jpeg";  // replace with your portr
 
 export default function DoctorSection() {
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="about" className="py-16 bg-gray-50">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
         {/* Left: Doctor Image */}
         <div className="w-full md:w-1/3">
@@ -23,17 +23,24 @@ export default function DoctorSection() {
             Consultant Spine Surgeon
           </h2>
           <p className="text-gray-700 mb-4">
-            Dr. Harshit Dave is a board-certified spine surgeon with over 15 years of
-            experience in minimally invasive and complex spinal procedures.
+            Dr. Harshit Dave is a top-rated spine surgeon known for his patient-first, conservative approach. He specializes in non-surgical treatments, and when needed, performs minimally invasive and endoscopic spine surgeries with precision and care.
+            With extensive training from premier institutions across India, he combines advanced medical knowledge with a compassionate touch.
+
           </p>
-          <p className="text-gray-700 mb-4">
-            He specializes in lumbar decompression, spinal fusion, and
-            corrective scoliosis surgery, delivering personalized care from
-            diagnosis through rehabilitation.
-          </p>
-          <button className="mt-4 bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
-            Read Full Bio →
-          </button>
+          <p className="text-gray-700 mb-2 font-semibold">Key Highlights:</p>
+<ul className="list-disc list-inside text-gray-700 mb-4">
+  <li>10+ Years of Experience in Spine Care & Surgery</li>
+  <li>Fellowship-Trained in Endoscopic & Minimally Invasive Techniques</li>
+  <li>Trained at India's Leading Hospitals</li>
+  <li>Focused on Non-Surgical Solutions First</li>
+  <li>Thousands of Patients Treated Successfully</li>
+  <li>Clear Communication & Personalized Care</li>
+</ul>
+
+         <a href="about.html" class="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
+  Read Full Bio →
+</a>
+
         </div>
       </div>
     </section>
