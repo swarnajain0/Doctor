@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const services = [
   {
-    title: 'Physical Therapy & Rehabilitation',
+    title: 'Non-Surgical Spine Solutions',
     summary:
-      'We work closely with skilled physiotherapists who develop personalized exercise programs to strengthen your back, improve posture, and reduce strain on the spine. These targeted movements can help alleviate pain and prevent further injury.',
+      'At Dr. Harshit Dave’s clinic, we believe surgery isn’t always the first or only solution. Many spine conditions can be effectively managed with non-surgical treatments, especially in the early stages. Our patient-focused approach includes a variety of evidence-based therapies designed to relieve pain, improve mobility, and restore quality of life — all without going under the knife',
     details: [
       'Medication Management: Pain relievers, anti-inflammatory medications, and muscle relaxants may be used to reduce discomfort and swelling. For chronic conditions, we ensure medications are used carefully and responsibly to provide relief while minimizing side effects.',
       'Lifestyle & Posture Counseling: Small adjustments in your daily routine — from the way you sit to how you lift objects — can significantly reduce back stress. We guide patients on ergonomic changes, activity modifications, and spine-friendly habits.',
@@ -16,12 +16,9 @@ const services = [
   {
     title: 'Full Endoscopic Spine Surgery',
     summary:
-      'A highly advanced, minimally invasive technique using a small camera and instruments to treat spinal conditions with minimal disruption.',
+      'Dr. Harshit Dave, a fellowship-trained leader in full endoscopic spine surgery, delivers expert care that gets patients back to living pain-free—quickly, safely, and effectively.',
     details:
-      `Dr. Harshit Dave, a fellowship-trained leader in full endoscopic spine surgery, delivers expert care that gets patients back to living pain-free—quickly, safely, and effectively.
-
-Full endoscopic spine surgery is a highly advanced, minimally invasive technique used to treat a range of spinal conditions, including herniated discs, spinal stenosis, and nerve compression. This procedure involves inserting a small, high-definition camera (endoscope) and specialized surgical instruments through a tiny incision—often less than 1 cm—to access and treat the problem area with pinpoint accuracy.
-
+      `Full Endoscopic spine surgery is a highly advanced, minimally invasive technique used to treat a range of spinal conditions, including herniated discs, spinal stenosis, and nerve compression. This procedure involves inserting a small, high-definition camera (endoscope) and specialized surgical instruments through a tiny incision—often less than 1 cm—to access and treat the problem area with pinpoint accuracy.
 Unlike traditional open surgery, endoscopic spine surgery causes minimal disruption to muscles and tissues, resulting in significantly less pain, reduced blood loss, and a faster return to normal activities.
 
 Dr. Dave brings specialized expertise in full endoscopic spine surgery to deliver exceptional outcomes with a patient-first approach. Our goal is to offer you effective solutions with compassionate care tailored just for you.`,
@@ -29,20 +26,18 @@ Dr. Dave brings specialized expertise in full endoscopic spine surgery to delive
   {
     title: 'Minimally Invasive Spine Surgery (MISS)',
     summary:
-      'Modern surgical approach using small incisions and special tools to reduce pain and speed recovery.',
+      'Minimally Invasive Spine Surgery (MISS) is a modern approach to treating spine problems with less pain and a quicker recovery. Instead of making large cuts, the surgeon uses small incisions and special tools to reach the spine with minimal damage to the muscles and tissues around it.',
     details:
-      `Minimally Invasive Spine Surgery (MISS) is a modern approach to treating spine problems with less pain and a quicker recovery. Instead of making large cuts, the surgeon uses small incisions and special tools to reach the spine with minimal damage to the muscles and tissues around it.
-
-This means you may experience less pain after surgery, spend less time in the hospital, and get back to your daily activities sooner.
+      `This means you may experience less pain after surgery, spend less time in the hospital, and get back to your daily activities sooner.
 
 We prioritize procedures that minimize trauma to the body. MISS can help with conditions like herniated discs, spinal stenosis, and other common spine issues. Our goal is to help you feel better and move better—with the least disruption to your life.`,
   },
   {
     title: 'Complex Spine Surgery',
     summary:
-      'Advanced surgical solutions for severe or recurrent spinal conditions requiring special planning.',
+      'Complex spine surgeries are performed to treat severe or advanced spinal conditions that often involve multiple levels of the spine or haven’t improved with previous treatments. Some spine problems are more serious and need special care.',
     details:
-      `Complex spine surgeries are performed to treat severe or advanced spinal conditions that often involve multiple levels of the spine or haven’t improved with previous treatments. Some spine problems are more serious and need special care.
+      `These surgeries are carefully planned to relieve pain, improve movement, and help you return to daily life.
 
 Common examples include revision spine surgery (to correct or improve a previous surgery), scoliosis correction, multi-level disc problems, osteoporotic spine fractures, spinal infections, and conditions like Pott’s spine (spinal tuberculosis). With advanced techniques and personalized care, we aim to provide safe and effective solutions for even the most challenging spine issues.`,
   }

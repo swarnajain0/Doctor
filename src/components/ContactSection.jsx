@@ -75,7 +75,7 @@ export default function ContactSection() {
                 id="phone"
                 name="phone"
                 type="tel"
-                placeholder="+84 123 456 789"
+                placeholder="+91 123 456 789"
                 className="w-full border-b border-gray-300 focus:border-blue-600 outline-none py-2"
               />
             </div>
@@ -112,7 +112,7 @@ export default function ContactSection() {
           </div>
 
           {/* Privacy */}
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <input
               id="privacy"
               name="privacy"
@@ -126,7 +126,7 @@ export default function ContactSection() {
                 Privacy Policy
               </a>
             </label>
-          </div>
+          </div> */}
 
           {/* Submit */}
           <button

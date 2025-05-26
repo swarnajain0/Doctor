@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import googleLogo from "../assets/google-review-logo.png"; // ← put your logo file here
 
 const reviews = [
   {
@@ -6,12 +7,12 @@ const reviews = [
     date: "September 12",
     quote:
       "Dr. Harshit Dave is not only an exceptional spine surgeon but also a wonderful human being. He helped me through a challenging time with an L4-L5 spine bulging and a rotator cuff ligament tear. His expertise in endoscopic and minimally invasive techniques is of the highest order, arguably one of the best in the country."
-  },  
+  },
   {
     name: "Vaibhav Gupta",
     date: "February 16",
     quote:
-      "He's an exceptional doctor who truly focuses on identifying the root cause of the problem. Dr. Harshit patiently explained my condition in detail and provided a clear treatment plan. I am feeling so much better now and recovering quickly. If you're dealing with any spine-related issues, I highly recommend Dr. Harshit Dave! "
+      "He's an exceptional doctor who truly focuses on identifying the root cause of the problem. Dr. Harshit patiently explained my condition in detail and provided a clear treatment plan. I am feeling so much better now and recovering quickly. If you're dealing with any spine-related issues, I highly recommend Dr. Harshit Dave!"
   },
   {
     name: "Meenakshi Vyas",
@@ -29,13 +30,13 @@ const reviews = [
     name: "Ruhi Teli",
     date: "July 20",
     quote:
-      "Dr Harshit is very helpful. When all the treatment measures were not showing any progress in my father in law's condition.His accurate diagnosis of koch,'s spine and treatment helped my father in law to recuperate early.Now, he could perform daily activities and  living healthy life. So, Thank you Dr Harshit from our family. He is caring and his dedication towards patients makes him a great doctor.All the best for your future"
+      "Dr Harshit is very helpful. When all the treatment measures were not showing any progress in my father in law's condition.His accurate diagnosis of koch,'s spine and treatment helped my father in law to recuperate early.Now, he could perform daily activities and living healthy life. So, Thank you Dr Harshit from our family. He is caring and his dedication towards patients makes him a great doctor.All the best for your future"
   },
   {
     name: "Aanchal Mathur-Mishra",
     date: "June 2",
     quote:
-      "Dr Harshit is very detailed and takes the time to answer all our queries at all times. He always remembered our case pre and post surgery and that helped us get alot of confidence in the doctors prognosis or advise for further treatment. He has helped me recover post surgery with more natural ways of healing instead of any heavy medicinal interventions. Dr Harshit is definitely recommended for any spinal ailments and has alot of experience in surgical interventions as needed for the same."
+      "Dr Harshit is very detailed and takes the time to answer all our queries at all times. He always remembered our case pre and post surgery and that helped us get alot of confidence in the doctors prognosis or advise for further..."
   }
 ];
 
@@ -88,25 +89,38 @@ export default function Testimonials() {
               </svg>
             </button>
           </div>
+          {/* Link to add review */}
+          <a
+            href="https://maps.app.goo.gl/U8Fwqg3bEbkoDBF76"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block text-blue-600 hover:underline"
+          >
+            Click here to add your review
+          </a>
         </div>
 
         {/* Right: Active review */}
         <div className="w-full lg:w-1/2">
-          <div className="bg-gray-50 p-8 rounded-lg shadow-lg">
-            {/* Google Reviews link */}
+          <div className="bg-gray-50 p-8 rounded-lg shadow-lg text-center">
+            {/* Google Reviews logo link */}
             <a
-              href="https://www.google.com/maps/place/Dr.+Harshit+Dave-+Endoscopic+and+Minimally+invasive+Spine+Surgeon/@23.0303744,72.5500041,17z/data=!4m16!1m9!3m8!1s0x395e85a6b99e8f0d:0x463a2b4dc3d6966c!2sDr.+Harshit+Dave-+Endoscopic+and+Minimally+invasive+Spine+Surgeon!8m2!3d23.0303695!4d72.554875!9m1!1b1!16s%2Fg%2F11y94p1qhv!3m5!1s0x395e85a6b99e8f0d:0x463a2b4dc3d6966c!8m2!3d23.0303695!4d72.554875!16s%2Fg%2F11y94p1qhv?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+              href="https://maps.app.goo.gl/U8Fwqg3bEbkoDBF76"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 font-semibold mb-4 inline-block"
+              className="inline-block mb-4"
             >
-              Click here to add your Google Review
+              <img
+                src={googleLogo}
+                alt="Add your review on Google"
+                className="h-40 w-32 mx-auto"
+              />
             </a>
-            <p className="text-lg italic text-gray-800 mb-6">“{reviews[idx].quote}”</p>
-            <div className="flex items-center">
-              <div className="ml-4">
-                <p className="font-semibold text-gray-900">~ {reviews[idx].name}</p>
-              </div>
+            <p className="text-lg italic text-gray-800 mb-6">
+              “{reviews[idx].quote}”
+            </p>
+            <div className="flex items-center justify-center">
+              <p className="font-semibold text-gray-900">~ {reviews[idx].name}</p>
             </div>
           </div>
         </div>
