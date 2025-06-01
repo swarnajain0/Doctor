@@ -1,13 +1,7 @@
 import React, { useState } from "react";
-import googleLogo from "../assets/google-review-logo.png"; // ← put your logo file here
+import googleLogo from "../assets/google.png"; // ← put your logo file here
 
 const reviews = [
-  {
-    name: "Shreyas Sanghvi",
-    date: "September 12",
-    quote:
-      "Dr. Harshit Dave is not only an exceptional spine surgeon but also a wonderful human being. He helped me through a challenging time with an L4-L5 spine bulging and a rotator cuff ligament tear. His expertise in endoscopic and minimally invasive techniques is of the highest order, arguably one of the best in the country."
-  },
   {
     name: "Vaibhav Gupta",
     date: "February 16",
@@ -37,6 +31,12 @@ const reviews = [
     date: "June 2",
     quote:
       "Dr Harshit is very detailed and takes the time to answer all our queries at all times. He always remembered our case pre and post surgery and that helped us get alot of confidence in the doctors prognosis or advise for further..."
+  },
+   {
+    name: "Shreyas Sanghvi",
+    date: "September 12",
+    quote:
+      "Dr. Harshit Dave is not only an exceptional spine surgeon but also a wonderful human being. He helped me through a challenging time with an L4-L5 spine bulging and a rotator cuff ligament tear. His expertise in endoscopic and minimally invasive techniques is of the highest order, arguably one of the best in the country."
   }
 ];
 
@@ -55,7 +55,7 @@ export default function Testimonials() {
             What Patients Say About Dr. Harshit
           </h2>
           <p className="text-gray-600 mb-6">
-            We’re proud to have helped thousands of patients take steps toward better health.
+            We're proud to have helped thousands of patients take steps toward better health.
           </p>
           <div className="flex space-x-4">
             <button
@@ -113,7 +113,7 @@ export default function Testimonials() {
               <img
                 src={googleLogo}
                 alt="Add your review on Google"
-                className="h-40 w-32 mx-auto"
+                className="h-40 w-48 mx-auto"
               />
             </a>
             <p className="text-lg italic text-gray-800 mb-6">

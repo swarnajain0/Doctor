@@ -1,6 +1,6 @@
 // src/components/NavBar.jsx
 import React, { useState, useEffect } from "react";
-import logo from "../assets/logo.png"; // ← your logo file here
+import logo from "../assets/logo-spine-plus.png"; // ← your logo file here
 
 export default function NavBar() {
   const [solid, setSolid] = useState(false);
@@ -30,7 +30,7 @@ export default function NavBar() {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo + Brand */}
         <a href="#home" className="flex items-center">
-          <img src={logo} alt="Spine Plus Logo" className="h-8 w-auto mr-2" />
+          <img src={logo} alt="Spine Plus Logo" className="h-16 w-auto mr-2" />
           <span
             className={`text-2xl font-bold transition-colors duration-300 ${
               solid ? "text-blue-600" : "text-white"
