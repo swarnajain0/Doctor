@@ -20,15 +20,15 @@ const Footer = () => {
           <p className="font-semibold">Contact Us</p>
           <div className="flex items-start space-x-2">
             <span><i className="fas fa-map-marker-alt text-gray-300"></i></span>
-            <span>Ahmedabad, Gujarat, India</span>
+            <span>Mandsaur, India</span>
           </div>
           <div className="flex items-center space-x-2">
             <span><i className="fas fa-envelope text-gray-300"></i></span>
-            <span>spinespecialist@clinicmail.com</span>
+            <span>mail id</span>
           </div>
           <div className="flex items-center space-x-2">
             <span><i className="fas fa-phone text-gray-300"></i></span>
-            <span>+91 99999 99999</span>
+            <span>+91 9723022044</span>
           </div>
         </div>
 

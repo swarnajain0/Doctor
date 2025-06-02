@@ -15,9 +15,10 @@ export default function Hero() {
     >
       <div className="relative z-10 container mx-auto px-6 flex items-center h-full">
         <div className="w-full md:w-1/2">
-          <h2 className="inline-block bg-blue-100 text-blue-600 uppercase text-sm mb-4 px-3 py-1 rounded">
-            Your Trusted Spine Specialist
-          </h2>
+          <h2 className="inline-block bg-blue-100 text-blue-600 uppercase text-sm mb-4 px-3 py-1 rounded mt-6 md:mt-0">
+  Your Trusted Spine Specialist
+</h2>
+
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
             Get Back to Pain-Free Living
           </h1>
