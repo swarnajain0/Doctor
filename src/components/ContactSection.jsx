@@ -18,7 +18,7 @@ export default function ContactSection() {
               dr.harshit@gmail.com
             </a>
           </p>
-          <p className="text-gray-700">+84 (0) 28 3636 2184</p>
+          <p className="text-gray-700">+91 9723022044</p>
         </div>
 
         {/* Right: Formspree-powered Contact Form */}
