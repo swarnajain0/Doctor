@@ -27,14 +27,26 @@ export default function Hero() {
             We combine expert evaluation, gentle treatments, and the latest in endoscopic and minimally invasive techniques to support your recovery.
             Offering complete care, from diagnosis to rehab, with a focus on comfort, precision, and long term relief.
           </p>
+
+          
           <div className="mt-6 flex space-x-4">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
-              Learn More →
-            </button>
-            <button className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-blue-600 transition">
-              Contact Us →
-            </button>
-          </div>
+  {/* Know Your Doctor → link to about.html */}
+  <a
+    href="/about.html"
+    className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition"
+  >
+    Know Your Doctor →
+  </a>
+
+  {/* Contact Us → anchor scroll to #contact */}
+  <a
+    href="#contact"
+    className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-blue-600 transition"
+  >
+    Contact Us →
+  </a>
+</div>
+
         </div>
       </div>
     </section>
