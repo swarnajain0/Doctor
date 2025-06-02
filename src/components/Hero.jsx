@@ -8,9 +8,9 @@ export default function Hero() {
       className="relative bg-cover bg-no-repeat h-[600px] md:h-[900px]"
       style={{
         backgroundImage: `url(${bgImg})`,
-        // Move the image down 15% so the top stays in view.
-        // Increase/decrease the second value until you see the hair.
-        backgroundPosition: "center 15%",
+  backgroundPosition: "right center",  // Always show the right side (where the doctor is)
+  backgroundSize: "cover",             // Fully fill the container
+  backgroundRepeat: "no-repeat"
       }}
     >
       <div className="relative z-10 container mx-auto px-6 flex items-center h-full">
