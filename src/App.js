@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar              from "./components/NavBar";
 import Hero                from "./components/Hero";
-import Features            from "./components/Features";
+import WhyChooseUs            from "./components/WhyChooseUs";
 import DoctorSection       from "./components/DoctorSection";
 import Testimonials        from "./components/Testimonials";
 import ConditionsCarousel  from "./components/ConditionsCarousel";
@@ -15,7 +15,7 @@ function App() {
     <>
       <NavBar />
       <Hero />
-      <Features />
+      <WhyChooseUs />
       <DoctorSection />
       <Testimonials />
       <ConditionsCarousel />

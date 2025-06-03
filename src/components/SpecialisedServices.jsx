@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
 
+const bgColors = [
+  "bg-blue-50",
+  "bg-yellow-50",
+  "bg-blue-50",
+  "bg-yellow-50"
+];
+
 const services = [
   {
     title: 'Non-Surgical Spine Solutions',
@@ -22,7 +29,7 @@ const services = [
 
 Unlike traditional open surgery, endoscopic spine surgery causes minimal disruption to muscles and tissues, resulting in significantly less pain, reduced blood loss, and a faster return to normal activities.
 
-Dr. Dave brings specialized expertise in full endoscopic spine surgery to deliver exceptional outcomes with a patient-first approach. Our goal is to offer you effective solutions with compassionate care tailored just for you.`,
+Dr. Dave brings specialized expertise in full endoscopic spine surgery to deliver exceptional outcomes with a patient-first approach. Our goal is to offer you effective solutions with compassionate care tailored just for you.`
   },
   {
     title: 'Minimally Invasive Spine Surgery (MISS)',
@@ -31,7 +38,7 @@ Dr. Dave brings specialized expertise in full endoscopic spine surgery to delive
     details:
       `This means you may experience less pain after surgery, spend less time in the hospital, and get back to your daily activities sooner.
 
-We prioritize procedures that minimize trauma to the body. MISS can help with conditions like herniated discs, spinal stenosis, and other common spine issues. Our goal is to help you feel better and move better with the least disruption to your life.`,
+We prioritize procedures that minimize trauma to the body. MISS can help with conditions like herniated discs, spinal stenosis, and other common spine issues. Our goal is to help you feel better and move better with the least disruption to your life.`
   },
   {
     title: 'Complex Spine Surgery',
@@ -40,7 +47,7 @@ We prioritize procedures that minimize trauma to the body. MISS can help with co
     details:
       `These surgeries are carefully planned to relieve pain, improve movement, and help you return to daily life.
 
-Common examples include revision spine surgery (to correct or improve a previous surgery), scoliosis correction, multi-level disc problems, osteoporotic spine fractures, spinal infections, and conditions like Potts spine (spinal tuberculosis). With advanced techniques and personalized care, we aim to provide safe and effective solutions for even the most challenging spine issues.`,
+Common examples include revision spine surgery (to correct or improve a previous surgery), scoliosis correction, multi-level disc problems, osteoporotic spine fractures, spinal infections, and conditions like Potts spine (spinal tuberculosis). With advanced techniques and personalized care, we aim to provide safe and effective solutions for even the most challenging spine issues.`
   }
 ];
 
@@ -63,7 +70,7 @@ export default function SpecialisedServices() {
           {services.map((svc, i) => (
             <div
               key={i}
-              className="p-6 bg-gray-50 rounded-lg shadow-lg"
+              className={`p-6 ${bgColors[i % bgColors.length]} rounded-lg shadow-md`}
             >
               <h3 className="text-xl font-semibold mb-2">
                 {svc.title}
