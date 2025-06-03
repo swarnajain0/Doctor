@@ -18,3 +18,27 @@ html { scroll-behavior: smooth; }
 #contact {
   scroll-margin-top: 80px; /* adjust as needed */
 }
+.hero-text {
+  color: black;
+}
+
+.contact-button {
+  border-color: black;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .hero-text {
+    color: white;
+  }
+
+  .contact-button {
+    border-color: white;
+    color: white;
+  }
+
+  .contact-button:hover {
+    background-color: white;
+    color: #2563eb; /* Blue hover text */
+  }
+}
