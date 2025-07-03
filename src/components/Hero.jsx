@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="relative z-10 container mx-auto px-6 flex items-center min-h-screen md:min-h-[750px]">
         <div className="w-full md:w-1/2 hero-text">
           <h2 className="inline-block bg-blue-100 text-blue-600 uppercase text-sm mb-4 px-3 py-1 rounded mt-40 md:mt-0">
-            Your Trusted Spine Specialist
+            Your Trusted Spine Specialist swarna making some chnages herererererer
           </h2>
 
           <h1 className="text-4xl md:text-6xl font-bold leading-tight hero-heading">
