@@ -16,8 +16,8 @@ export default function Features() {
     },
     {
       icon: ico2,
-      title: "A conservative approach you can trust",
-      desc: "Whether you're dealing back pain or spinal stenosis we offer complete care—from diagnosis and non-surgical management to surgical intervention when needed.",
+      title: "All-Inclusive Spine Solutions ",
+      desc: "Whether you're dealing back pain or spinal stenosis we offer complete care, from diagnosis and non-surgical management to surgical intervention when needed.",
       bg: "bg-yellow-50"
     },
     {
@@ -34,7 +34,7 @@ export default function Features() {
     },
     {
       icon: ico5,
-      title: "Compassionate Support Every Step of the Way",
+      title: "Personalised Care At Every Step",
       desc: "Dr. Harshit Dave is dedicated to providing patients with emotional support, clear communication, and professional guidance throughout their entire journey.",
       bg: "bg-blue-50"
     },
