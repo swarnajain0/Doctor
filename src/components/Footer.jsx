@@ -3,7 +3,7 @@ import logo from '../assets/logo-spine-plus.png'; // update the path if needed
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1e1f26] text-white text-sm pt-12 pb-8">
+    <footer className="bg-[#22416d] text-white text-sm pt-12 pb-8">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
 
         {/* Logo + Clinic Info (left) */}
@@ -40,20 +40,21 @@ const Footer = () => {
         <div className="space-y-3">
           <p className="font-semibold text-white">Follow Us</p>
           <div className="flex space-x-6 text-white text-xl">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/spineplus_drharshit?igsh=MXVicDh5OTd6dHFlOA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <i className="fab fa-instagram hover:text-pink-500"></i>
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://www.facebook.com/share/14DhMpYDJaW/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <i className="fab fa-facebook-f hover:text-blue-500"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/dr-harshit-dave-137b45118?trk=contact-info" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <i className="fab fa-linkedin-in hover:text-blue-400"></i>
             </a>
             <a href="mailto:spinespecialist@clinicmail.com" aria-label="Gmail">
               <i className="fas fa-envelope hover:text-red-500"></i>
             </a>
             <a
-              href="https://maps.google.com?q=Ahmedabad,Gujarat,India"
+              href="Spine Plus- Ortho Spine and Pain Care Clinic (By Dr. Harshit Dave) would love your feedback. Post a review to our profile.
+https://g.page/r/CdTBMIak_3QCEAE/review"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Google Maps"
