@@ -1,5 +1,5 @@
 import React from "react";
-import doctorImg from "../assets/about-doctor.jpeg";  // replace with your portrait file
+import doctorImg from "../assets/about-doctor-image.jpg";  // replace with your portrait file
 
 export default function DoctorSection() {
   return (

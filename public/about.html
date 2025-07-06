@@ -5,21 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Dr. Harshit Dave</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+  body {
+    background-color: rgba(34, 65, 109, 0.9); /* 0.9 = 90% opacity */
+    color: white; /* Makes text readable on dark background */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  h1, h2 {
+    color: #83e41b;
+
+  a {
+    color: #90cdf4;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 </head>
-<body class="bg-white text-gray-800 font-sans">
+<body class="bg-[#22416d] text-white font-sans">
+
   <div class="max-w-4xl mx-auto px-6 py-12">
     
     <!-- Profile Section with Image -->
     <section class="mb-10 flex flex-col md:flex-row items-start gap-6">
       <img 
-  src="read-full-bio.png" 
+  src="about-image.PNG" 
   alt="Dr. Harshit Dave" 
   class="h-64 w-auto rounded-lg shadow-md"
 />
 
       <div>
-        <h1 class="text-4xl font-bold text-blue-700 mb-2">About Dr. Harshit Dave</h1>
-        <p class="text-lg font-semibold text-gray-700 mb-4">
+        <h1 class="text-4xl font-bold mb-2">About Dr. Harshit Dave</h1>
+        <p class="text-lg font-semibold 
+ mb-4">
          Full Endoscopic & Complex Spine Specialist
 MBBS, MS(Ortho,Mumbai), DNB, FISS, FMISS, FESS
         </p>
@@ -31,24 +60,24 @@ MBBS, MS(Ortho,Mumbai), DNB, FISS, FMISS, FESS
 
     <!-- Bio Sections -->
     <section class="mb-8">
-      <h2 class="text-2xl font-bold text-blue-600 mb-2">Early Life and Inspiration</h2>
+      <h2 class="text-2xl font-bold  mb-2">Early Life and Inspiration</h2>
       <p>Born and raised in Madhya Pradesh, Dr. Dave showed a remarkable interest in medical science from a young age. His journey into orthopaedics and spine surgery was driven by a deep desire to heal and improve the quality of life for others. That same passion continues to guide his work today.</p>
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-bold text-blue-600 mb-2">Professional Journey</h2>
+      <h2 class="text-2xl font-bold  mb-2">Professional Journey</h2>
       <p class="mb-4">Dr. Dave's career has been marked by academic excellence and rigorous training. He is board-certified and has completed advanced fellowships that have equipped him with the expertise to manage a wide range of spinal conditions, from common issues like disc herniation and sciatica to complex deformities and spine trauma.</p>
       <p>He is especially skilled in endoscopic and minimally invasive spine procedures, which allow for faster recovery, minimal postoperative pain, and lower complication rates. These advanced techniques have revolutionized the way spine care is delivered and Dr. Dave is at the forefront of this transformation in India.</p>
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-bold text-blue-600 mb-2">Patient-Centered Philosophy</h2>
+      <h2 class="text-2xl font-bold  mb-2">Patient-Centered Philosophy</h2>
       <p class="mb-4">Dr. Dave firmly believes that most spine problems do not require surgery. His approach emphasizes conservative, non-operative treatments wherever possible. When surgery is necessary, it is performed with the utmost precision, using the least invasive methods available.</p>
       <p>Patients consistently commend him for his empathetic communication, personalized care, and transparency. Whether it’s taking extra time to explain a diagnosis or walking a patient through each step of treatment, Dr. Dave ensures that patients feel informed, reassured, and cared for.</p>
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-bold text-blue-600 mb-2">Education & Specialized Training</h2>
+      <h2 class="text-2xl font-bold mb-2">Education & Specialized Training</h2>
       <ul class="list-disc list-inside">
         <li>MBBS – Government Medical College & SSG Hospital, Vadodara</li>
         <li>MS in Orthopaedics – Grant Medical College & JJ Hospital, Mumbai</li>
@@ -62,7 +91,7 @@ MBBS, MS(Ortho,Mumbai), DNB, FISS, FMISS, FESS
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-bold text-blue-600 mb-2">Areas of Expertise</h2>
+      <h2 class="text-2xl font-bold  mb-2">Areas of Expertise</h2>
       <ul class="list-disc list-inside">
         <li>Degenerative Spine Disorders</li>
         <li>Herniated Disc & Sciatica</li>
@@ -75,7 +104,7 @@ MBBS, MS(Ortho,Mumbai), DNB, FISS, FMISS, FESS
       </ul>
     </section>
 
-    <a href="/" class="text-blue-600 hover:underline">← Back to Home</a>
+    <a href="/" class=" hover:underline">← Back to Home</a>
   </div>
 </body>
 </html>
