@@ -14,7 +14,9 @@ const Footer = () => {
             className="w-28 h-28 object-contain"
           />
           <div>
-            <p className="text-xl font-semibold text-white">SpineCare Clinic</p>
+            <p className="text-xl font-semibold text-white">Spine Plus
+
+ Clinic</p>
             <p className="text-gray-400 mt-1">Dr. Harshit Dave</p>
           </div>
         </div>
@@ -24,7 +26,7 @@ const Footer = () => {
           <p className="font-semibold text-white">Contact Us</p>
           <div className="flex items-start space-x-2 text-gray-300">
             <i className="fas fa-map-marker-alt mt-1"></i>
-            <span>Ahmedabad, Gujarat, India</span>
+            <span>Indore, Madhya Pradesh, India</span>
           </div>
           <div className="flex items-center space-x-2 text-gray-300">
             <i className="fas fa-envelope"></i>
@@ -40,7 +42,8 @@ const Footer = () => {
         <div className="space-y-3">
           <p className="font-semibold text-white">Follow Us</p>
           <div className="flex space-x-6 text-white text-xl">
-            <a href="https://www.instagram.com/spineplus_drharshit?igsh=MXVicDh5OTd6dHFlOA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/Spine Plus
+_drharshit?igsh=MXVicDh5OTd6dHFlOA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <i className="fab fa-instagram hover:text-pink-500"></i>
             </a>
             <a href="https://www.facebook.com/share/14DhMpYDJaW/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
