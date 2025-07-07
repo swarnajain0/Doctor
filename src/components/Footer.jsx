@@ -42,8 +42,7 @@ const Footer = () => {
         <div className="space-y-3">
           <p className="font-semibold text-white">Follow Us</p>
           <div className="flex space-x-6 text-white text-xl">
-            <a href="https://www.instagram.com/Spine Plus
-_drharshit?igsh=MXVicDh5OTd6dHFlOA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/spineplus_drharshit?igsh=MXVicDh5OTd6dHFlOA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <i className="fab fa-instagram hover:text-pink-500"></i>
             </a>
             <a href="https://www.facebook.com/share/14DhMpYDJaW/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">

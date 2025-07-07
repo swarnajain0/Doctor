@@ -25,12 +25,14 @@ export default function Hero() {
             Get Back to Pain-Free Living
           </h1>
 
-          <p className="mt-4 max-w-lg hero-paragraph">
-            Complete spine care – from your first visit to full recovery.
-            <br />
-            We combine expert evaluation, gentle treatments, and the latest in endoscopic and minimally invasive techniques to support your recovery.
-            Offering complete care, from diagnosis to rehab, with a focus on comfort, precision, and long term relief.
-          </p>
+          <p className="mt-4 max-w-lg bg-white bg-opacity-90 text-gray-800 p-4 rounded-lg shadow-md 
+              md:bg-transparent md:shadow-none md:p-0 md:text-white hero-paragraph">
+  Complete spine care – from your first visit to full recovery.
+  <br />
+  We combine expert evaluation, gentle treatments, and the latest in endoscopic and minimally invasive techniques to support your recovery.
+  Offering complete care, from diagnosis to rehab, with a focus on comfort, precision, and long term relief.
+</p>
+
 
           <div className="mt-6 flex space-x-4">
             <a
