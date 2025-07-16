@@ -1,6 +1,6 @@
 // src/components/Hero.jsx
 import React from "react";
-import bgImg from "../assets/heroo.png";
+import bgImg from "../assets/hero3.png";
 import "../index.css"; // Make sure this is included for styles to apply
 
 export default function Hero() {
