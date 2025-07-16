@@ -22,7 +22,7 @@ export default function Hero() {
           </h2>
 
           <h1 className="text-4xl md:text-6xl font-bold leading-tight hero-heading">
-            Get Back to Pain-Free Living okay?
+            Get Back to Pain-Free Living
           </h1>
 
           <p className="mt-4 max-w-lg bg-white bg-opacity-90 text-gray-800 p-4 rounded-lg shadow-md 
