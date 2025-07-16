@@ -1,5 +1,6 @@
 // src/components/Gallery.jsx
 import React from "react";
+
 import img1 from "../assets/galleryyy/images/img1.PNG";
 import img2 from "../assets/galleryyy/images/img2.JPG";
 import img3 from "../assets/galleryyy/images/img3.JPG";
@@ -33,10 +34,13 @@ const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img
 
 const videos = [vid1, vid2];
 
-export default function Gallery() {
-  const handleBack = () => {
-    window.history.back();
-  };
+export default function Gallery({ onNavigateHome }) {
+
+ const handleBack = () => {
+  onNavigateHome();
+};
+
+
 
   // Combine images and videos in blocks of 6 images + 2 videos
   const blocks = [];
@@ -60,11 +64,13 @@ export default function Gallery() {
           <span className="text-2xl font-bold text-blue-700">Spine Plus</span>
         </div>
         <button
-          onClick={handleBack}
-          className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition"
-        >
-          ← Go Back
-        </button>
+  onClick={handleBack}
+  className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition"
+>
+  ← Go Back
+</button>
+
+
       </div>
 
       <div className="px-6 py-12">

@@ -29,7 +29,8 @@ function App() {
           <ContactSection />
         </>
       ) : (
-        <Gallery />
+        <Gallery onNavigateHome={() => setShowGallery(false)} />
+
       )}
       <Footer />
     </>

@@ -6,7 +6,7 @@ import "../index.css"; // Make sure this is included for styles to apply
 export default function Hero() {
   return (
     <section
-      id="hero"
+      id="home"
       className="relative bg-cover bg-no-repeat min-h-screen md:min-h-[750px]"
       style={{
         backgroundImage: `url(${bgImg})`,
