@@ -30,7 +30,7 @@ import vid1 from "../assets/galleryyy/videos/vid1.MP4";
 import vid2 from "../assets/galleryyy/videos/vid2.MP4";
 import logo from "../assets/logo-spine-plus.png";
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img15, img16, img17, img18, img19, img20, img21, img22];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img15, img16, img17, img18, img19, img22, img21, img20];
 
 const videos = [vid1, vid2];
 
