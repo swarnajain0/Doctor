@@ -1,9 +1,10 @@
-// src/components/NavBar.jsx
 import React, { useState, useEffect } from "react";
-import logo from "../assets/logo-spine-plus.png"; // ← your logo file here
+import logo from "../assets/logo-spine-plus.png";
 
 export default function NavBar({ onNavigateGallery, onNavigateHome }) {
   const [solid, setSolid] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   const links = [
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
@@ -28,7 +29,7 @@ export default function NavBar({ onNavigateGallery, onNavigateHome }) {
       }`}
     >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo + Brand */}
+        {/* Logo */}
         <a href="#home" className="flex items-center" onClick={onNavigateHome}>
           <img src={logo} alt="Spine Plus Logo" className="h-16 w-auto mr-2" />
           <span
@@ -40,7 +41,7 @@ export default function NavBar({ onNavigateGallery, onNavigateHome }) {
           </span>
         </a>
 
-        {/* Desktop Links */}
+        {/* Desktop Menu */}
         <ul
           className={`hidden md:flex space-x-8 transition-colors duration-300 ${
             solid ? "text-gray-600" : "text-white"
@@ -55,7 +56,7 @@ export default function NavBar({ onNavigateGallery, onNavigateHome }) {
           ))}
         </ul>
 
-        {/* Gallery CTA */}
+        {/* Desktop Gallery CTA */}
         <button
           onClick={onNavigateGallery}
           className="hidden md:inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition"
@@ -65,7 +66,10 @@ export default function NavBar({ onNavigateGallery, onNavigateHome }) {
 
         {/* Mobile Hamburger */}
         <div className="md:hidden">
-          <button aria-label="Toggle menu">
+          <button
+            aria-label="Toggle menu"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
             {[0, 1, 2].map((i) => (
               <span
                 key={i}
@@ -77,6 +81,33 @@ export default function NavBar({ onNavigateGallery, onNavigateHome }) {
           </button>
         </div>
       </div>
+
+      {/* Mobile Dropdown Menu */}
+      {isMobileMenuOpen && (
+        <div
+          className={`md:hidden bg-white shadow-lg px-6 py-4 space-y-4 text-gray-800`}
+        >
+          {links.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="block hover:text-blue-600"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {link.label}
+            </a>
+          ))}
+          <button
+            onClick={() => {
+              onNavigateGallery();
+              setIsMobileMenuOpen(false);
+            }}
+            className="w-full bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition"
+          >
+            Gallery
+          </button>
+        </div>
+      )}
     </nav>
   );
 }
