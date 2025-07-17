@@ -30,18 +30,24 @@ import img24 from "../assets/galleryyy/images/img24.jpg";
 // import img26 from"../assets/galleryyy/images/img26.jpg";
 // // import img27 from"../assets/galleryyy/images/img27.JPG";
 
-
-
-
 import vid1 from "../assets/galleryyy/videos/vid1.MP4";
 import vid2 from "../assets/galleryyy/videos/vid2.MP4";
+import vid3 from "../assets/galleryyy/videos/vid3.MOV";
+import vid4 from "../assets/galleryyy/videos/vid4.MP4";
+import vid5 from "../assets/galleryyy/videos/vid5.MP4";
+import vid6 from "../assets/galleryyy/videos/vid6.MP4";
+import vid7 from "../assets/galleryyy/videos/vid7.MP4";
+import vid8 from "../assets/galleryyy/videos/vid8.MP4";
+
+
 import logo from "../assets/logo-spine-plus.png";
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14,img15, img16,img17,
     img18, img19,img20,img21,img22,img23,img24];
   // ,img25,img26];
 
-const videos = [vid1, vid2];
+const videos = [vid1, vid2, vid3, vid4, vid5, vid6, vid7,vid8];
+
 
 export default function Gallery({ onNavigateHome }) {
 
@@ -106,7 +112,8 @@ export default function Gallery({ onNavigateHome }) {
                 <video
                   key={`vid-${idx}-${index}`}
                   controls
-                  className="w-full h-[500px] rounded-lg shadow-md object-cover"
+                  className="w-full h-[500px] rounded-lg shadow-md object-contain bg-black"
+
                 >
                   <source src={video} type="video/mp4" />
                   Your browser does not support the video tag.
