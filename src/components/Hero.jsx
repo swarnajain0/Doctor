@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 import React from "react";
 import bgImg from "../assets/hero3.png";
-import "../index.css"; // Make sure this is included for styles to apply
+import "../index.css"; 
 
 export default function Hero() {
   return (
@@ -42,12 +42,6 @@ export default function Hero() {
               Know Your Doctor →
             </a>
 
-            {/* <a
-              href="#contact"
-              className="border-2 px-6 py-2 rounded-full contact-button transition"
-            >
-              Contact Us →
-            </a> */}
           </div>
         </div>
       </div>

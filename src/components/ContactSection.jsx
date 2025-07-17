@@ -111,22 +111,6 @@ export default function ContactSection() {
             />
           </div>
 
-          {/* Privacy */}
-          {/* <div className="flex items-center">
-            <input
-              id="privacy"
-              name="privacy"
-              type="checkbox"
-              required
-              className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-            />
-            <label htmlFor="privacy" className="ml-2 text-gray-700">
-              I agree with the{" "}
-              <a href="/privacy-policy.html" className="text-blue-600 hover:underline">
-                Privacy Policy
-              </a>
-            </label>
-          </div> */}
 
           {/* Submit */}
           <button
@@ -150,27 +134,6 @@ export default function ContactSection() {
             </svg>
           </button>
 
-          {/* if green <button
-  type="submit"
-  className="mt-4 inline-flex items-center px-8 py-3 rounded-full text-white transition"
-  style={{ backgroundColor: '#32CD32' }} // logo green
->
-  Submit
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-5 w-5 ml-2"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M14 5l7 7m0 0l-7 7m7-7H3"
-    />
-  </svg>
-</button> */}
 
         </form>
       </div>
