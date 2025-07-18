@@ -8,24 +8,25 @@ import img4 from "../assets/galleryyy/images/img4.PNG";
 import img5 from "../assets/galleryyy/images/img5.JPG";
 import img6 from "../assets/galleryyy/images/img6.PNG";
 import img7 from "../assets/galleryyy/images/img7.JPG";
-import img8 from "../assets/galleryyy/images/img8.JPG";
+import img8 from "../assets/galleryyy/images/img8.jpg";
 import img9 from "../assets/galleryyy/images/img9.JPG";
 import img10 from "../assets/galleryyy/images/img10.jpg";
 import img11 from "../assets/galleryyy/images/img11.jpg";
 import img12 from "../assets/galleryyy/images/img12.JPG";
-import img13 from "../assets/galleryyy/images/img13.JPG";
-// import img14 from "../assets/galleryyy/images/img14.PNG";
-import img15 from "../assets/galleryyy/images/img15.jpg";
-import img16 from "../assets/galleryyy/images/img16.png";
+
+import img13 from "../assets/galleryyy/images/img13.png";
+import img14 from "../assets/galleryyy/images/img14.jpg";
+import img15 from "../assets/galleryyy/images/img15.png";
+import img16 from "../assets/galleryyy/images/img16.jpg";
 import img17 from "../assets/galleryyy/images/img17.jpg";
-import img18 from "../assets/galleryyy/images/img18.png";
-import img19 from "../assets/galleryyy/images/img19.JPEG";
-// import img20 from "../assets/galleryyy/images/img20.jpg";
-// import img21 from "../assets/galleryyy/images/img21.jpg";
-// import img22 from "../assets/galleryyy/images/img22.JPG";
-import img25 from"../assets/galleryyy/images/img25.jpg";
-import img26 from"../assets/galleryyy/images/img26.jpg";
-// import img27 from"../assets/galleryyy/images/img27.JPG";
+import img18 from "../assets/galleryyy/images/img18.jpg";
+//import img19 from "../assets/galleryyy/images/img19.jpg";
+import img20 from "../assets/galleryyy/images/img20.JPEG";
+import img21 from "../assets/galleryyy/images/img21.JPG";
+// // import img22 from "../assets/galleryyy/images/img22.JPG";
+// import img25 from"../assets/galleryyy/images/img25.jpg";
+// import img26 from"../assets/galleryyy/images/img26.jpg";
+// // import img27 from"../assets/galleryyy/images/img27.JPG";
 
 
 
@@ -34,7 +35,11 @@ import vid1 from "../assets/galleryyy/videos/vid1.MP4";
 import vid2 from "../assets/galleryyy/videos/vid2.MP4";
 import logo from "../assets/logo-spine-plus.png";
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img15, img16, img17, img18, img19,img25,img26];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14,img15, img16,img17,
+    img18, 
+    // img19,
+    img20,img21];
+  // ,img25,img26];
 
 const videos = [vid1, vid2];
 
