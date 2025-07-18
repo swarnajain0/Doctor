@@ -8,7 +8,7 @@ import img4 from "../assets/galleryyy/images/img4.PNG";
 import img5 from "../assets/galleryyy/images/img5.JPG";
 import img6 from "../assets/galleryyy/images/img6.PNG";
 import img7 from "../assets/galleryyy/images/img7.JPG";
-import img8 from "../assets/galleryyy/images/img8.jpg";
+import img8 from "../assets/galleryyy/images/img8.jpeg";
 import img9 from "../assets/galleryyy/images/img9.JPG";
 import img10 from "../assets/galleryyy/images/img10.jpg";
 import img11 from "../assets/galleryyy/images/img11.jpg";
