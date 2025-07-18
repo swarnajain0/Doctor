@@ -23,6 +23,10 @@ import img19 from "../assets/galleryyy/images/img19.JPEG";
 // import img20 from "../assets/galleryyy/images/img20.jpg";
 // import img21 from "../assets/galleryyy/images/img21.jpg";
 // import img22 from "../assets/galleryyy/images/img22.JPG";
+import img25 from"../assets/galleryyy/images/img25.jpg";
+import img26 from"../assets/galleryyy/images/img26.jpg";
+// import img27 from"../assets/galleryyy/images/img27.JPG";
+
 
 
 
@@ -30,7 +34,7 @@ import vid1 from "../assets/galleryyy/videos/vid1.MP4";
 import vid2 from "../assets/galleryyy/videos/vid2.MP4";
 import logo from "../assets/logo-spine-plus.png";
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img15, img16, img17, img18, img19];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img15, img16, img17, img18, img19,img25,img26];
 
 const videos = [vid1, vid2];
 
