@@ -68,7 +68,7 @@ const Footer = () => {
       {/* Divider & Copyright */}
       <hr className="border-gray-700 mx-6 mt-10" />
       <div className="text-center text-xs text-gray-500 pt-4">
-        © 2025 Dr. Harshit Dave. All rights reserved.
+        © 2025 Swarna Jain. All rights reserved.
       </div>
     </footer>
   );
