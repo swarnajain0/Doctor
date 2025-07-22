@@ -109,16 +109,17 @@ export default function Gallery({ onNavigateHome }) {
             {/* Video Block */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {block.videos.map((video, index) => (
-                <video
-                  key={`vid-${idx}-${index}`}
-                  controls
-                  className="w-full h-[500px] rounded-lg shadow-md object-contain bg-black"
+  <video
+    key={`vid-${idx}-${index}`}
+    controls
+    preload="metadata"
+    className="w-full h-[500px] rounded-lg shadow-md object-contain bg-black"
+  >
+    <source src={video + "#t=0.1"} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+))}
 
-                >
-                  <source src={video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              ))}
             </div>
           </div>
         ))}
