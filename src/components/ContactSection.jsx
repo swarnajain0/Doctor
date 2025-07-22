@@ -23,7 +23,7 @@ export default function ContactSection() {
 
         {/* Right: Formspree-powered Contact Form */}
         <form
-          action="https://formspree.io/f/mnndyyjv"
+          action="https://formspree.io/f/xvgqkzje"
           method="POST"
           className="space-y-6"
         >
