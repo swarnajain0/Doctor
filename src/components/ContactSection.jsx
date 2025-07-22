@@ -15,7 +15,7 @@ export default function ContactSection() {
           </p>
           <p className="mb-2">
             <a href="mailto:dr.dave@gmail.com" className="text-blue-600 hover:underline">
-              dr.harshit@gmail.com
+              drharshitdave@gmail.com
             </a>
           </p>
           <p className="text-gray-700">+91 9723022044</p>

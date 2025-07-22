@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center space-x-2 text-gray-300">
             <i className="fas fa-envelope"></i>
-            <span>dr.harshit@gmail.com</span>
+            <span>drharshitdave@gmail.com</span>
           </div>
           <div className="flex items-center space-x-2 text-gray-300">
             <i className="fas fa-phone-alt"></i>

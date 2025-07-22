@@ -71,7 +71,7 @@ export default function Gallery({ onNavigateHome }) {
   }
 
   return (
-    <section className="bg-gray-100 min-h-screen">
+    <section id="gallery" className="bg-gray-100 min-h-screen">
       {/* Header */}
       <div className="flex items-center justify-between px-6 py-4 bg-white shadow-md sticky top-0 z-50">
         <div className="flex items-center space-x-3">

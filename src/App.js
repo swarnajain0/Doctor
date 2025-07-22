@@ -9,17 +9,25 @@ import SpecialisedServices from "./components/SpecialisedServices";
 import FAQ from "./components/FAQ";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
-import Gallery from "./components/Gallery"; // New
+import Gallery from "./components/Gallery";
 
 function App() {
   const [showGallery, setShowGallery] = useState(false);
 
+  const handleNavigateGallery = () => {
+    setShowGallery(true);
+  };
+
   return (
     <>
-      <NavBar onNavigateGallery={() => setShowGallery(true)} onNavigateHome={() => setShowGallery(false)} />
+      <NavBar
+        onNavigateGallery={() => setShowGallery(true)}
+        onNavigateHome={() => setShowGallery(false)}
+      />
+
       {!showGallery ? (
         <>
-          <Hero />
+          <Hero onNavigateGallery={handleNavigateGallery} />
           <WhyChooseUs />
           <DoctorSection />
           <Testimonials />
@@ -30,8 +38,8 @@ function App() {
         </>
       ) : (
         <Gallery onNavigateHome={() => setShowGallery(false)} />
-
       )}
+
       <Footer />
     </>
   );
