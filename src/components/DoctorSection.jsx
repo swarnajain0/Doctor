@@ -29,7 +29,7 @@ export default function DoctorSection() {
           </p>
           <p className="text-gray-700 mb-2 font-semibold">Key Highlights:</p>
 <ul className="list-disc list-inside text-gray-700 mb-4">
-  <li>10+ Years of Experience in Spine Care & Surgery</li>
+  <li>8+ Years of Experience in Spine Care & Surgery</li>
   <li>Fellowship-Trained in Endoscopic & Minimally Invasive Techniques</li>
   <li>Trained at India's Leading Hospitals</li>
   <li>Focused on Non-Surgical Solutions First</li>
