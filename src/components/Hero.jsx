@@ -47,7 +47,7 @@ export default function Hero({ onNavigateGallery }) {
             {/* Gallery Button (only on mobile) */}
             <button
               onClick={onNavigateGallery}
-              className="bg-gray-800 text-white px-6 py-2 rounded-full hover:bg-gray-900 transition text-center block md:hidden"
+              className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition text-center block md:hidden"
             >
               View Gallery
             </button>
