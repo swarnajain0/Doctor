@@ -14,9 +14,7 @@ const Footer = () => {
             className="w-28 h-28 object-contain"
           />
           <div>
-            <p className="text-xl font-semibold text-white">Spine Plus
-
- Clinic</p>
+            <p className="text-xl font-semibold text-white">Spine Plus Clinic</p>
             <p className="text-gray-400 mt-1">Dr. Harshit Dave</p>
           </div>
         </div>
@@ -51,12 +49,12 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/dr-harshit-dave-137b45118?trk=contact-info" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <i className="fab fa-linkedin-in hover:text-blue-400"></i>
             </a>
-            <a href="mailto:spinespecialist@clinicmail.com" aria-label="Gmail">
+            <a href="mailto:drharshitdave@gmail.com" aria-label="Gmail">
               <i className="fas fa-envelope hover:text-red-500"></i>
             </a>
+            
             <a
-              href="Spine Plus- Ortho Spine and Pain Care Clinic (By Dr. Harshit Dave) would love your feedback. Post a review to our profile.
-https://g.page/r/CdTBMIak_3QCEAE/review"
+              href="https://maps.app.goo.gl/Djpq9YqcFdqQR5Tm6"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Google Maps"

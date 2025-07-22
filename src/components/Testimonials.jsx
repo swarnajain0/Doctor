@@ -91,7 +91,7 @@ export default function Testimonials() {
           </div>
           {/* Link to add review */}
           <a
-            href="https://maps.app.goo.gl/U8Fwqg3bEbkoDBF76"
+            href="https://maps.app.goo.gl/Djpq9YqcFdqQR5Tm6"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block text-blue-600 hover:underline"
@@ -105,7 +105,7 @@ export default function Testimonials() {
           <div className="bg-gray-50 p-8 rounded-lg shadow-lg text-center">
             {/* Google Reviews logo link */}
             <a
-              href="https://maps.app.goo.gl/U8Fwqg3bEbkoDBF76"
+              href="https://maps.app.goo.gl/Djpq9YqcFdqQR5Tm6"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mb-4"
