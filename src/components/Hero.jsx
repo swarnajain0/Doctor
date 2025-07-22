@@ -17,7 +17,8 @@ export default function Hero({ onNavigateGallery }) {
     >
       <div className="relative z-10 container mx-auto px-6 flex items-center min-h-screen md:min-h-[750px]">
         <div className="w-full md:w-1/2 hero-text">
-          <h2 className="inline-block bg-blue-100 text-blue-600 uppercase text-sm mb-4 px-3 py-1 rounded mt-40 md:mt-0">
+          <h2 className="inline-block bg-blue-100 text-blue-600 uppercase text-sm mb-4 px-3 py-1 rounded mt-60 md:mt-0 lg:mt-12">
+
             Your Trusted Spine Specialist
           </h2>
 
